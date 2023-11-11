@@ -62,19 +62,23 @@ nav ul li{
     margin-top: 5px;
     width: 30vw;
     max-width: 100%;
+    outline: none;
 }.con_inp:last-child{
-    padding: 3rem 0rem;
+    resize: none;
+}.con_btn{
+    margin-left: 21.5rem;
+    margin-top: .5rem;
 }
 
 /* .contact-form{
     border: 2px solid blueviolet;
     margin-top: 30px;
     padding: 20px;
-}
+} */
 .phone-number, .email{
-    border: 2px solid blueviolet;
-    margin: 20px;
-    padding: 10px;
+    border: 2px solid rgb(183, 174, 194);
+    margin: 1rem 4rem;
+    padding: 1rem;
 }
 .fa-phone{
     color: blue;
@@ -87,7 +91,31 @@ nav ul li{
     color: blue;
     margin-left: 100px;
     margin-bottom: 5px;
-    font-size: 50px;
-    
-} */
+    font-size: 50px;  
+}
+/* Sign in page */
+.sign_in_form{
+    margin: 4rem;
+}.sign_in_form div h1{
+    margin-left: 30rem;
+}.sign_in_input{
+    margin: 5px 12.5rem;
+    width: 50vw;
+    max-width: 100%;
+}
+/* Sign up page */
+.sign_up_form{
+    margin: 4rem;
+}.sign_up_form div h1{
+    margin-left: 30rem;
+}.sign_up_input{
+    margin: 5px 12.5rem;
+    width: 50vw;
+    max-width: 100%;
+}.name_field{
+    margin: 5px 12.5rem;
+}.name_input{
+    width: 24.70vw;
+    max-width: 100%;
 
+}
