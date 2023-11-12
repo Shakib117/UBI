@@ -93,29 +93,15 @@ nav ul li{
     margin-bottom: 5px;
     font-size: 50px;  
 }
-/* Sign in page */
-.sign_in_form{
-    margin: 4rem;
-}.sign_in_form div h1{
-    margin-left: 30rem;
-}.sign_in_input{
-    margin: 5px 12.5rem;
-    width: 50vw;
-    max-width: 100%;
-}
+
 /* Sign up page */
-.sign_up_form{
-    margin: 4rem;
-}.sign_up_form div h1{
-    margin-left: 30rem;
-}.sign_up_input{
-    margin: 5px 12.5rem;
+.sign_in_n_up_input{
+    /*used in sign in also*/
+    margin: 5px 0px;
     width: 50vw;
     max-width: 100%;
-}.name_field{
-    margin: 5px 12.5rem;
 }.name_input{
+    margin: 5px 0px;
     width: 24.70vw;
     max-width: 100%;
-
 }
