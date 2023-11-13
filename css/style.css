@@ -4,9 +4,7 @@
     left: 0;
     top: 0;
     width: 100vw;
-    z-index: 1;
-}
-.col_search{
+}.col_search{
     width: 25vw;
     max-width: 100%;
     border-radius: 45px;
@@ -80,7 +78,7 @@ nav ul li{
     margin: 1rem 4rem;
     padding: 1rem;
 }
-.fa-phone{
+.fc{
     color: blue;
     margin-left: 100px;
     margin-bottom: 5px;

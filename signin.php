@@ -12,7 +12,6 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
 <body>
-    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#signin">SI</button>
     <div class="container-fluid modal fade" id="signin">
         <div class="modal-dialog">
             <div class="modal-content">
