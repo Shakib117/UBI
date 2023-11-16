@@ -4,6 +4,7 @@
     left: 0;
     top: 0;
     width: 100vw;
+    z-index: 1;
 }.col_search{
     width: 25vw;
     max-width: 100%;
@@ -55,7 +56,11 @@ nav ul li{
 }
 
 /* contact page */
-
+.contact{
+    position: relative;
+    margin-top: 12rem;
+    z-index: 0;
+}
 .con_inp{
     margin-top: 5px;
     width: 30vw;
