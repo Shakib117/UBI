@@ -1,12 +1,3 @@
-<!-- changes
-    html-header
-        1 Fully transfered into nav bootstrap
-        2 Used svg instead of icon for unproportional icons 
-        3 Added Search bar above
-    css
-        1 class col_search and search_bar has been added
-        2 unneccessary classes were closed
- -->
 <!DOCTYPE html>
 <html lang="en">
 
