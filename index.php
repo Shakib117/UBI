@@ -1,4 +1,3 @@
-<?php include"inc/header.php"?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +13,7 @@
     <!-- css linkup -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-
+<?php include"inc/header.php"?>
 <body>
     
 
