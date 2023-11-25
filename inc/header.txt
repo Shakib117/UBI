@@ -58,18 +58,18 @@
 
         <!-- 2nd nav bar -->
         <section class="category">
-            <nav class="navbar-nav navbar-expand-sm">
-                <ul class="navbar-nav justify-content-center">
-                    <li class="nav-link"><button class="btn" data-bs-toggle="collapse" data-bs-target="#mobile"><i
+            <div>
+                <ul>
+                    <li><button class="btn" data-bs-toggle="collapse" data-bs-target="#mobile"><i
                                 class="fa-solid fa-mobile"></i></i><span class="cat_btn"> Mobile</span></button></li>
-                    <li class="nav-link"><button class="btn" data-bs-toggle="collapse" data-bs-target="#tv"><i
+                    <li><button class="btn" data-bs-toggle="collapse" data-bs-target="#tv"><i
                                 class="fa-solid fa-tv"></i></i><span class="cat_btn"> Television</span></button></li>
-                    <li class="nav-link"><button class="btn" data-bs-toggle="collapse" data-bs-target="#laptop"><i
+                    <li><button class="btn" data-bs-toggle="collapse" data-bs-target="#laptop"><i
                                 class="fa-solid fa-laptop"></i><span class="cat_btn"> Laptop</span></button></li>
-                    <li class="nav-link"><button class="btn" data-bs-toggle="collapse" data-bs-target="#computer"><i
+                    <li><button class="btn" data-bs-toggle="collapse" data-bs-target="#computer"><i
                                 class="fa-solid fa-computer"></i><span class="cat_btn"> Computer</span></button></li>
                 </ul>
-            </nav>   
+            </div>
         </section>
         <div class="row cat_bg">
             <div id="mobile" class="collapse col-md-3">
