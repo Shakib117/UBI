@@ -71,7 +71,7 @@
                 </ul>
             </nav>   
         </section>
-        <div class="row cat_bg">
+        <section class="row cat_bg">
             <div id="mobile" class="collapse col-md-3">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro commodi sit nisi temporibus,
                     voluptatum, iste nihil suscipit eius voluptas, excepturi aliquid aperiam qui. Voluptas consequuntur
@@ -96,7 +96,7 @@
                     deserunt optio minima expedita quae, quam commodi. Explicabo quo debitis architecto ut velit unde
                     incidunt consequatur exercitationem illum. Rerum commodi atque dolorum, est sint odio?</p>
             </div>
-        </div>
+        </section>
     </div>
 
     <!-- bootstrap linkup -->
