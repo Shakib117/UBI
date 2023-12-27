@@ -17,7 +17,7 @@
 <body>
     <div class="header">
         <header class="container-fluid p-3 bg-dark">
-            <nav class="navbar container navbar-expand-sm">
+            <nav class="navbar container-fluid navbar-expand-sm">
                 <h1 class="col-2 text-white"><a href="index.php" class="text-white"
                         style="text-decoration: none;">LOGO</a></h1>
                 <div class="p-2 col_search">
@@ -56,47 +56,7 @@
             </nav>
         </header>
 
-        <!-- 2nd nav bar -->
-        <section class="category">
-            <nav class="navbar-nav navbar-expand-sm">
-                <ul class="navbar-nav justify-content-center">
-                    <li class="nav-link"><button class="btn" data-bs-toggle="collapse" data-bs-target="#mobile"><i
-                                class="fa-solid fa-mobile"></i></i><span class="cat_btn"> Mobile</span></button></li>
-                    <li class="nav-link"><button class="btn" data-bs-toggle="collapse" data-bs-target="#tv"><i
-                                class="fa-solid fa-tv"></i></i><span class="cat_btn"> Television</span></button></li>
-                    <li class="nav-link"><button class="btn" data-bs-toggle="collapse" data-bs-target="#laptop"><i
-                                class="fa-solid fa-laptop"></i><span class="cat_btn"> Laptop</span></button></li>
-                    <li class="nav-link"><button class="btn" data-bs-toggle="collapse" data-bs-target="#computer"><i
-                                class="fa-solid fa-computer"></i><span class="cat_btn"> Computer</span></button></li>
-                </ul>
-            </nav>   
-        </section>
-        <section class="row cat_bg">
-            <div id="mobile" class="collapse col-md-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro commodi sit nisi temporibus,
-                    voluptatum, iste nihil suscipit eius voluptas, excepturi aliquid aperiam qui. Voluptas consequuntur
-                    deserunt optio minima expedita quae, quam commodi. Explicabo quo debitis architecto ut velit unde
-                    incidunt consequatur exercitationem illum. Rerum commodi atque dolorum, est sint odio?</p>
-            </div>
-            <div id="tv" class="collapse col-md-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro commodi sit nisi temporibus,
-                    voluptatum, iste nihil suscipit eius voluptas, excepturi aliquid aperiam qui. Voluptas consequuntur
-                    deserunt optio minima expedita quae, quam commodi. Explicabo quo debitis architecto ut velit unde
-                    incidunt consequatur exercitationem illum. Rerum commodi atque dolorum, est sint odio?</p>
-            </div>
-            <div id="laptop" class="collapse col-md-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro commodi sit nisi temporibus,
-                    voluptatum, iste nihil suscipit eius voluptas, excepturi aliquid aperiam qui. Voluptas consequuntur
-                    deserunt optio minima expedita quae, quam commodi. Explicabo quo debitis architecto ut velit unde
-                    incidunt consequatur exercitationem illum. Rerum commodi atque dolorum, est sint odio?</p>
-            </div>
-            <div id="computer" class="collapse col-md-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro commodi sit nisi temporibus,
-                    voluptatum, iste nihil suscipit eius voluptas, excepturi aliquid aperiam qui. Voluptas consequuntur
-                    deserunt optio minima expedita quae, quam commodi. Explicabo quo debitis architecto ut velit unde
-                    incidunt consequatur exercitationem illum. Rerum commodi atque dolorum, est sint odio?</p>
-            </div>
-        </section>
+        
     </div>
 
     <!-- bootstrap linkup -->
