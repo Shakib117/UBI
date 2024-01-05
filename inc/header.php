@@ -23,7 +23,6 @@
         }#computer{
             left: 75vh;
         }
-
     </style>
 </head>
 

@@ -57,11 +57,13 @@ nav ul li{
 
 
 /* contact page */
-.contact{
-    position: relative;
-    margin-top: 12rem;
-    z-index: 0;
-}.con_inp{
+
+.contact {
+	position: relative;
+	margin-top: 15rem;
+	z-index: 0;
+}
+/*.con_inp{
     margin-top: 5px;
     width: 30vw;
     max-width: 100%;
@@ -71,7 +73,15 @@ nav ul li{
 }.con_btn{
     margin-left: 21.5rem;
     margin-top: .5rem;
+} */
+.contact-img{
+    width: 100%;
 }
+.get-in-touch{
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 10px;
+}
+
 
 /* .contact-form{
     border: 2px solid blueviolet;
