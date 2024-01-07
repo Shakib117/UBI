@@ -24,7 +24,15 @@
                     <li class="text-bg-info">1.4</li>
                 </ul>
             </li>
-            <li>2</li>
+            <li>
+                <button class="btn" data-bs-toggle="collapse" data-bs-target="#twice">2</button>
+                <ul id="twice" class="collapse bg-light">
+                    <li class="text-bg-info">2.1</li>
+                    <li class="text-bg-info">2.2</li>
+                    <li class="text-bg-info">2.3</li>
+                    <li class="text-bg-info">2.4</li>
+                </ul>
+            </li>
             <li>3</li>
             <li>4</li>
             <li>5</li>
