@@ -12,6 +12,18 @@
     <script src="https://kit.fontawesome.com/83cc78d2bd.js" crossorigin="anonymous"></script>
     <!-- css linkup -->
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        #mobile{
+            left: 0vh;
+        }#tv{
+            left: 25vw;
+        }#laptop{
+            left: 50vh;
+        }#computer{
+            left: 75vh;
+        }
+    </style>
 </head>
 
 <body>
