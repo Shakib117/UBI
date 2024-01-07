@@ -6,12 +6,22 @@
     background-color: rgb(3, 105, 105);
     display: flex;
     justify-content: center;
+    padding: 25px;
+}.header h1{
+    color: aqua;
+}.admin_info{
+    margin: 0px;
+}.admin_info h1{
+    color: azure;
+}.user_admin{
+    margin: 7px 15px;
 }
 /* header end */
 
 /* sidebar menu start */
 .sidebar{
-    width: 18vw;
+    margin-top: 25px;
+    width: 19vw;
     max-width: 100%;
     height: 100vh;
     max-height: 100%;
