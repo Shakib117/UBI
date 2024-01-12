@@ -8,7 +8,7 @@
     <!-- fontawesome linlup -->
     <script src="https://kit.fontawesome.com/83cc78d2bd.js" crossorigin="anonymous"></script>
     <!-- css linkup -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div class="header">
