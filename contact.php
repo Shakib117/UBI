@@ -52,43 +52,10 @@
                 </div>
             </div>
         </div>
-        <!-- <section class="d-flex justify-content-center align-items-center contact-box">
-            <div class="me-5">
-                <img src="img/contact-us.png" alt="">
-            </div>
-            <div class="contact-form">
-                <form action="" class="form-control mt-5">
-                    <div>
-                        <input type="text" class="con_inp" placeholder="Your Name"><br>
-                        <input type="text" class="con_inp" placeholder="Your Email"><br>
-                        <input type="text" class="con_inp" placeholder="Contact Number"><br>
-                        <textarea class="con_inp" name="" id="" cols="20" rows="5"
-                            placeholder="Write your message here"></textarea>
-                    </div>
-                    <div class="con_btn">
-                        <button type="submit" class="btn btn-success">SEND</button>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <section class="container mt-5">
-            <div class="d-flex justify-content-center align-items-center">
-                <div class="phone-number">
-                    <i class="fa-solid fa-phone fc"></i>
-                    <p>You can contact us via phone number.</p>
-                    <p>Our phone number : <span style="color: blue;">01XXXXXXXXX</span></p>
-                </div>
-                <div class="email">
-                    <i class="fa-solid fa-envelope"></i>
-                    <p>You can contact us via email</p>
-                    <p>Our email: <span style="color: blue;">businessemail@gmail.com</span></p>
-                </div>
-            </div>
-        </section> -->
     </div>
 
-    <?php include"signin.php"?>
-    <?php include"signup.php"?>
+    <?php include"signin.php"; ?>
+    <?php include"signup.php"; ?>
     
     <!-- bootstrap linkup -->
     <script src="js/bootstrap.bundle.min.js"></script>

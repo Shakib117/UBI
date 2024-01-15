@@ -16,42 +16,7 @@
 </head>
 
 <body>
-    <div class="container-fluid modal fade" id="signin">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title">Sign In</h1>
-                    <button type="button" class="btn-close sign_in_close" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form action="" class="form-control">
-                        <div class="">
-                            <input class="sign_in_n_up_input" type="email" name="email"
-                                placeholder="Enter Your Email"><br>
-                            <input class="sign_in_n_up_input" type="password" name="pass"
-                                placeholder="Enter Your Password"><br>
-                            <input class="sign_in_n_up_input" type="password" name="con_pass"
-                                placeholder="Confirm Password"><br>
-                            <button class="btn btn-success sign_in_n_up_input" type="button">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- <div class="container">
-        <form action="" class="form-control sign_in_form">
-            <div class="">
-                <h1>Sign In</h1>
-                <input class="sign_in_input" type="email" name="email" placeholder="Enter Your Email"><br>
-                <input class="sign_in_input" type="password" name="pass" placeholder="Enter Your Password"><br>
-                <input class="sign_in_input" type="password" name="con_pass" placeholder="Confirm Password"><br>
-                <button class="btn btn-success sign_in_input" type="button">Submit</button>
-            </div>
-        </form>
-    </div> -->
+    
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

@@ -17,45 +17,6 @@
 
 <body>
 
-    <div class="container-fluid modal fade" id="signup">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title">Sign Up</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form action="" class="form-control">
-                        <div class="d-flex">
-                            <input class="name_input me-1" type="text" name="fname" placeholder="First Name">
-                            <input class="name_input ms-1" type="text" name="lname" placeholder="Last Name">
-                        </div>
-                        <input class="sign_in_n_up_input" type="email" name="email" placeholder="Enter Your Email"><br>
-                        <input class="sign_in_n_up_input" type="password" name="pass" placeholder="Enter Password"><br>
-                        <input class="sign_in_n_up_input" type="password" name="con_pass"
-                            placeholder="Re-enter Password"><br>
-                        <button class="btn btn-success sign_in_n_up_input" type="button">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- <div class="container">
-        <form action="" class="form-control sign_up_form">
-            <div class="">
-                <h1>Sign Up</h1>
-                <div class="name_field d-flex">
-                    <input class="name_input me-1" type="text" name="fname" placeholder="First Name">
-                    <input class="name_input ms-1" type="text" name="lname" placeholder="Last Name">
-                </div>
-                <input class="sign_up_input" type="email" name="email" placeholder="Enter Your Email"><br>
-                <input class="sign_up_input" type="password" name="pass" placeholder="Enter Password"><br>
-                <input class="sign_up_input" type="password" name="con_pass" placeholder="Re-enter Password"><br>
-                <button class="btn btn-success sign_up_input" type="button">Submit</button>
-            </div>
-        </form>
-    </div> -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
