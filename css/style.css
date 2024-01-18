@@ -10,13 +10,17 @@ header h1{
     margin-left: 20px;
     
 }*/
+a{
+    text-decoration: none;
+    color: #2c2325;
+}
 nav ul li{
     list-style: none;
     display: inline;
     margin-right: 20px;
 }
 
-/* header and nav bar style */
+/* ---------header and nav bar--------- */
 .header{
     position: absolute;
     left: 0;
@@ -55,50 +59,68 @@ nav ul li{
     font-size: 20px;
 }
 
+/* ---------------sign-up page----------------- */
+.sign-up-btn{
+    margin-top: 20px;
+    background-color: rgb(21, 76, 121);
+    border: none;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+}
 
-/* contact page */
 
-.contact {
-	position: relative;
-	margin-top: 15rem;
-	z-index: 0;
-}.contact-img{
+/* --------------sign-in page----------------*/
+.login-form{
+    background-color: rgb(240, 237, 233);
+    padding: 20px;
+}
+.fa-circle-user{
+ font-size: 100px;
+}
+.login-form input{ 
+    width: 80%;
+    height: 50px;
+    margin-left: 55px;
+    border: 0;
+}
+.login-form input:hover{
+    border: 2px solid rgb(21, 76, 121);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.login-form a{
+    text-decoration: none;
+}
+.sign-in-btn{
+    background-color: rgb(21, 76, 121);
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 35%;
+    color: white;
+}
+.create-account-btn{
+    background-color: rgb(43, 141, 43);
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.create-account-btn a{
+    color: white;
+}
+.login-form button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* --------------contact page----------------*/
+.contact-img{
     width: 100%;
-}.get-in-touch{
+}
+.get-in-touch{
+    color: rgb(21, 76, 121);
     text-shadow: 2px 2px 4px #000000;
     margin-bottom: 10px;
-}
-/* .contact-form{
-    border: 2px solid blueviolet;
-    margin-top: 30px;
-    padding: 20px;
-} */
-.phone-number, .email{
-    border: 2px solid rgb(183, 174, 194);
-    margin: 1rem 4rem;
-    padding: 1rem;
-}.fc{
-    color: blue;
-    margin-left: 100px;
-    margin-bottom: 5px;
-    font-size: 50px;
-    
-}
-.fa-envelope{
-    color: blue;
-    margin-left: 100px;
-    margin-bottom: 5px;
-    font-size: 50px;  
+
 }
 
-/* Sign up page */
-.sign_in_n_up_input{
-    /*used in sign in also*/
-    margin: 5px 0px;
-    width: 50vw;
-    max-width: 100%;
-}.name_input{
-    margin: 5px 0px;
-    width: 24.70vw;
-    max-width: 100%;
-}
