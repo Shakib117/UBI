@@ -1,27 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+    include_once "inc/conn.php";
+    // session_start();
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Project</title>
-    <!-- bootstrap linkup -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- fontawesome linlup -->
-    <script src="https://kit.fontawesome.com/83cc78d2bd.js" crossorigin="anonymous"></script>
-    <!-- css linkup -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    if(isset($_POST["signup"])){
+        $fname = $_POST["fname"];
+        $lname = $_POST["lname"];
+        
+        $name = $fname." ".$lname; 
 
-<body>
+        $address = $_POST["address"];
+        $country = $_POST["country"];
+        $number = $_POST["number"];
+        $email = $_POST["email"];
 
+        $pass = $_POST["pass"];
+        $conpass = $_POST["conpass"];
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
-</body>
-
-</html>
+        
+    }
+    
+?>
