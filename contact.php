@@ -53,9 +53,6 @@
             </div>
         </div>
     </div>
-
-    <?php include"signin.php"; ?>
-    <?php include"signup.php"; ?>
     
     <!-- bootstrap linkup -->
     <script src="js/bootstrap.bundle.min.js"></script>
