@@ -13,24 +13,6 @@
     <!-- css linkup -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <style>
-        #mobile {
-            left: 0vh;
-        }
-
-        #tv {
-            left: 25vw;
-        }
-
-        #laptop {
-            left: 50vh;
-        }
-
-        #computer {
-            left: 75vh;
-        }
-    </style>
 </head>
 
 <body>

@@ -22,7 +22,7 @@
             <div class="row">
                 <h3 class="heading">WELCOME TO (SITE NAME)</h3>
 
-                <form class="row g-3" action="signup.php">
+                <form class="row g-3" action="signup.php" method="post">
                     <div class="col-md-12">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" id="email" name="email">
