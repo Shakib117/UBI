@@ -41,17 +41,26 @@
 }.signin_form{
     position: relative;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 8.5rem;
     width: 100vw;
     max-width: 100%;
     z-index: 10;
-}.signin_input{
+}.signin_form h1{
+    margin-bottom: 2.5rem;
+}.input_background{
     width: 55vw;
     max-width: 100%;
-    border-radius: 25px;
     padding: 10px;
     margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 10.5rem;
+}.signin_input{
+    margin-left: 0.5rem;
+    width: 50vw;
+    max-width: 100%;
     outline: none;
+    border: none;
 }.btn_input {
     margin-top: 1rem;
 	font-size: 16px;
