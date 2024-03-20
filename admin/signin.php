@@ -1,3 +1,16 @@
+<?php
+    
+
+    if(isset($_POST['signin'])){
+        $name = $_POST['username'];
+        $pass = $_POST['password'];
+
+        if($name=="admin" && $pass="12345678"){
+            echo "confirmed";
+        } else echo "not confirmed";
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,10 +32,10 @@
                 <h1 class="text-light">Log in</h1><br>
                 <form action="" method="post">
                     <div class="input_background">
-                        <input class="signin_input" type="text" placeholder=" Username"><br>
+                        <input class="signin_input" type="text" placeholder=" Username" name="username"><br>
                     </div>
                     <div class="input_background">
-                        <input class="signin_input" type="text" placeholder=" Password"><br>
+                        <input class="signin_input" type="password" placeholder=" Password" name="password"><br>
                     </div>
                     <button class="btn btn_input" type="submit" name="signin">Sign In</button>
                 </form>
