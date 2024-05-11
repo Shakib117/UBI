@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="header">
-        <div class="container-fluid d-flex">
+        <div class="container d-flex">
             <div class="admin_info">
                 <h1>Admin Panel</h1>
             </div>
